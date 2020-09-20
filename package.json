@@ -1,0 +1,38 @@
+{
+  "name": "NodeJS_GMP_2020Q3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonAtrashkou/NodeJS_GMP_2020Q3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonAtrashkou/NodeJS_GMP_2020Q3/issues"
+  },
+  "homepage": "https://github.com/AntonAtrashkou/NodeJS_GMP_2020Q3#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.4-beta.0",
+    "joi": "^17.2.1",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4",
+    "uuid": "^8.3.0"
+  }
+}
